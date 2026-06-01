@@ -44,11 +44,11 @@ def calfp(frates, fac_rate):
 if __name__ == "__main__":
     # Dane wejściowe (ilości poszczególnych elementów)
     frates = [
-        [0, 1, 0], # EI
-        [0, 1, 0], # EO
-        [0, 3, 0], # EQ
-        [0, 1, 0], # ILF
-        [0, 3, 0]  # EIF
+        [1, 4, 6], # EI
+        [0, 0, 6], # EO
+        [3, 1, 0], # EQ
+        [4, 2, 2], # ILF
+        [1, 0, 0]  # EIF
     ]
 
     # Stała ocena dla wszystkich 14 czynników
