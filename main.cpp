@@ -52,6 +52,6 @@ if __name__ == "__main__":
     ]
 
     # Stała ocena dla wszystkich 14 czynników
-    fac_rate = 3
+    fac_rate = 2
 
     calfp(frates, fac_rate)
